@@ -23,7 +23,7 @@ body{
   display: block;
   width: 100%;
   background: url('img/background.jpg');
-  background-position: center;
+  background-position: center left;
   color: white;
   height: 100%;
   width: auto;
@@ -31,7 +31,7 @@ body{
   background-repeat: no-repeat;
   font-family: 'Raleway';
   text-align: center;
-  background-color: grey;
+  background-color: lightgrey;
 
 }
 .typed{
