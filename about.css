@@ -54,16 +54,23 @@ p.name{
   width: 100%;
   background-color: white;
   height: 10%;
-  margin-top: 10px;
+  margin-top: 30px;
+  text-align: center;
 }
 .icons{
-  margin-top: 10px;
+  margin-top: 20px;
   display: inline;
   float: left;
   padding-left: 5%;
 }
 p.hidden{
   visibility: hidden;
+}
+p.nav{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 0px;
 }
 hr{
   display: block;
