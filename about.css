@@ -1,0 +1,45 @@
+body{
+  font-family: 'Raleway';
+}
+h1.team{
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 40px;
+}
+.img{
+  display: inline;
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  float: left;
+  max-width: 100%;
+  margin-bottom: auto;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+.teamtxt{
+    margin-top: 110px;
+    padding-left: 55%;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+    width: 20%;
+}
+.aftermat{
+ margin-top: 150px;
+}
+.abouttext{
+  padding-top: 80px;
+  padding-left: 55%;
+  padding-right: 10px;
+  font-size: 20px;
+}
+p.name{
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-weight: 900;
+}
+.bottom{
+  padding-bottom: 20px;
+}

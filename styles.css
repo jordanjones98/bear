@@ -23,14 +23,13 @@ body{
   display: block;
   width: 100%;
   background: url('img/background.jpg');
-  background-position: center;
+  background-position: center left;
   color: white;
   height: 100%;
   width: auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: 'Raleway';
-  text-align: center;
   background-color: white;
 
 }
@@ -57,6 +56,26 @@ body{
   width: 100%;
   color: black;
   font-size: 30px;
+}
+.icons{
+  text-align: center;
+}
+.about{
+  text-align: center;
+  font-weight: 800;
+  padding-top: 10px;
+}
+a:hover{
+  color: #373737;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 .fa-twitter-square{
   color: grey;
@@ -91,6 +110,9 @@ body{
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
+
+
+
 @media screen and (max-device-width: 480px) {
 
 }
