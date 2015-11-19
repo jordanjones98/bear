@@ -19,15 +19,20 @@
     50% { opacity:0; }
     100% { opacity:1; }
 }
+body{
+  font-family: 'Raleway';
+}
+
 .typed{
-  font-size: 60px;
+  font-size: 40px;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
   line-height: 26.4px;
   color: black;
   padding-top: 10%;
+  text-align: center;
 }
-body{
-  font-family: 'Raleway';
+.secondline{
+  padding-top: 20px;
 }
