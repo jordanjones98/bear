@@ -60,10 +60,11 @@ body{
 .icons{
   text-align: center;
 }
-.about{
+p.about{
   text-align: center;
   font-weight: 800;
   padding-top: 10px;
+  color: black;
 }
 a:hover{
   color: #373737;
@@ -78,13 +79,13 @@ a{
   color: inherit;
 }
 .fa-twitter-square{
-  color: grey;
+  color: #777;
 }
 .fa-reddit-square{
-  color: grey;
+  color: #777;
 }
 .fa-envelope-square{
-  color: grey;
+  color: #777;
 }
 .fa-twitter-square:hover{
     color: #373737;

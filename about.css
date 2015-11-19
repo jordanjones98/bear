@@ -18,15 +18,17 @@ h1.team{
   margin-left: 30%;
 }
 .teamtxt{
-    margin-top: 110px;
+    margin-top: 30px;
     padding-left: 55%;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     padding-right: 10px;
     font-size: 20px;
-    width: 20%;
+    width: 40%;
+    font-weight: 600;
 }
 .aftermat{
- margin-top: 150px;
+ margin-top: 100px;
+ display: block;
 }
 .abouttext{
   padding-top: 80px;
@@ -35,11 +37,32 @@ h1.team{
   font-size: 20px;
 }
 p.name{
+  display: block;
   text-align: center;
   font-size: 30px;
   padding-bottom: 10px;
   font-weight: 900;
+  margin-top: 20px;
 }
 .bottom{
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.ourteam{
+  padding-top: 10px;
+  /*position: fixed;*/
+  width: 100%;
+  background-color: white;
+  height: 10%;
+}
+p.hidden{
+  visibility: hidden;
+}
+hr{
+  display: block;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+hr.hidden{
+  visibility: hidden;
 }
