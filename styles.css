@@ -58,6 +58,39 @@ body{
   color: black;
   font-size: 30px;
 }
+.fa-twitter-square{
+  color: grey;
+}
+.fa-reddit-square{
+  color: grey;
+}
+.fa-envelope-square{
+  color: grey;
+}
+.fa-twitter-square:hover{
+    color: #373737;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.fa-reddit-square:hover{
+    color: #373737;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.fa-envelope-square:hover{
+    color: #373737;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
 @media screen and (max-device-width: 480px) {
 
 }
