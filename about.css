@@ -1,5 +1,6 @@
 body{
   font-family: 'Raleway';
+  background-color: #FAFAFA;
 }
 h1.team{
   text-align: center;
@@ -7,6 +8,9 @@ h1.team{
   font-size: 40px;
   margin-top: ;
 
+}
+.about{
+  background-color: inherit;
 }
 .img{
   display: inline;
