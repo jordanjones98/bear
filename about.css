@@ -5,6 +5,8 @@ h1.team{
   text-align: center;
   font-family: 'Raleway';
   font-size: 40px;
+  margin-top: ;
+
 }
 .img{
   display: inline;
@@ -48,11 +50,17 @@ p.name{
   margin-bottom: 20px;
 }
 .ourteam{
-  padding-top: 10px;
   /*position: fixed;*/
   width: 100%;
   background-color: white;
   height: 10%;
+  display: inline;
+}
+.back{
+  display: inline;
+  float: left;
+  margin-top: 5px;
+  padding-left: 30px;
 }
 p.hidden{
   visibility: hidden;
@@ -65,4 +73,13 @@ hr{
 }
 hr.hidden{
   visibility: hidden;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: #777;
 }
