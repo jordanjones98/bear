@@ -31,6 +31,7 @@ body{
   background-repeat: no-repeat;
   font-family: 'Raleway';
   background-color: white;
+  overflow: hidden;
 }
 .typed{
   font-size: 40px;
@@ -55,11 +56,11 @@ body{
   color: black;
   font-size: 30px;
   position: relative;
-  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .icons{
   text-align: center;
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
 p.about{
   font-size: 25px;
