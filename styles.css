@@ -62,14 +62,12 @@ body{
 }
 .icons{
   text-align: center;
-  padding-bottom: 10px;
 }
 p.about{
   font-size: 25px;
   text-align: center;
   font-weight: 900;
   color: #2BDE73;
-  margin-top: 15%;
 }
 a:hover{
   color: #158441;
@@ -166,8 +164,11 @@ input[type="submit"]:hover {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.opening{
-  margin: 0px;
+.bottom{
+  bottom: 30px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 input[type="email"]::-webkit-input-placeholder {
 color: rgba(26, 26, 26, 0.93) !important;
