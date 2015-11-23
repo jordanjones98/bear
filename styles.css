@@ -31,7 +31,7 @@ body{
   background-repeat: no-repeat;
   font-family: 'Raleway';
   background-color: white;
-
+  overflow: hidden;
 }
 .typed{
   font-size: 40px;
@@ -51,11 +51,12 @@ body{
 }
 .footer{
   display: block;
-  background-color: rgba(255, 255, 255, 0.6);
   height: 20%;
   width: 100%;
   color: black;
   font-size: 30px;
+  position: relative;
+  margin-top: 10%;
 }
 .icons{
   text-align: center;
@@ -69,7 +70,7 @@ p.about{
   margin-top: 15%;
 }
 a:hover{
-  color: #373737;
+  color: #158441;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-property: color;
   transition-property: color;
@@ -81,16 +82,16 @@ a{
   color: inherit;
 }
 .fa-twitter-square{
-  color: #777;
+  color: #2BDE73;
 }
 .fa-reddit-square{
-  color: #777;
+  color: #2BDE73;
 }
 .fa-envelope-square{
-  color: #777;
+  color: #2BDE73;
 }
 .fa-twitter-square:hover{
-    color: #373737;
+    color: #158441;
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition-property: color;
     transition-property: color;
@@ -98,7 +99,7 @@ a{
     transition-duration: 0.5s;
 }
 .fa-reddit-square:hover{
-    color: #373737;
+    color: #158441;
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition-property: color;
     transition-property: color;
@@ -106,7 +107,7 @@ a{
     transition-duration: 0.5s;
 }
 .fa-envelope-square:hover{
-    color: #373737;
+    color: #158441;
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition-property: color;
     transition-property: color;
@@ -156,12 +157,12 @@ input[type="submit"] {
   margin-top: ;
 }
 input[type="submit"]:hover {
-  background-color: #999999;
+  background-color: #158441;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .opening{
   margin: 0px;
