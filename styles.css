@@ -32,6 +32,7 @@ body{
   font-family: 'Raleway';
   background-color: white;
   overflow: hidden;
+  margin: 0px;
 }
 .typed{
   font-size: 40px;
@@ -48,6 +49,7 @@ body{
 }
 .pic{
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.46);
 }
 .footer{
   display: block;
@@ -166,6 +168,21 @@ input[type="submit"]:hover {
 }
 .opening{
   margin: 0px;
+}
+input[type="email"]::-webkit-input-placeholder {
+color: rgba(26, 26, 26, 0.93) !important;
+}
+
+input[type="email"]:-moz-placeholder { /* Firefox 18- */
+color: rgba(26, 26, 26, 0.93) !important;
+}
+
+input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+color: rgba(26, 26, 26, 0.93) !important;
+}
+
+input[type="email"]:-ms-input-placeholder {
+color: rgba(26, 26, 26, 0.93) !important;
 }
 
 
