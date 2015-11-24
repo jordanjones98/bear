@@ -195,6 +195,7 @@ color: rgba(26, 26, 26, 0.93) !important;
 @media screen and (max-device-width: 480px) {
   body{
     font-family: 'Roboto';
+    font-weight: 300;
   }
 
 }
