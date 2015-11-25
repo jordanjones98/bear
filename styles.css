@@ -162,6 +162,8 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #158441;
+  -webkit-top-right-border-radius: 20px;
+  -webkit-bottom-right-border-radius: 20px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
