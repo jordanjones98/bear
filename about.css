@@ -94,3 +94,10 @@ a:visited{
 a:hover{
   color: #777;
 }
+@media screen and (max-device-width: 480px) {
+  body{
+    font-family: 'Roboto';
+    font-weight: 300;
+  }
+
+}
